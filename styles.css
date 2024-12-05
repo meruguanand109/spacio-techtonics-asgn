@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.nav-texts {
+    color: black;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 450;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    font-family:'Poppins';
+}
+.nav-btn {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 15px;
+    height: 40px;
+    padding: 8px;
+    margin-right: 40px;
+    outline: none;
+    font-weight: 550;
+}
+
+.screen-1 {
+    background: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5)), 
+    url('https://res.cloudinary.com/dyqmnbmxi/image/upload/v1733357524/image1_ewz7en.png');
+    background-size: cover;
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-c-1{
+    width: 45%;
+}
+.s-c-h1{
+    font-style:normal;
+    font-weight: 400;
+    font-size: 38px;
+}
+.font-i{
+    font-style: italic;
+}
+.font-ul{
+    text-decoration: underline;
+}
+.s-c-btn{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 24px;
+    height: 55px;
+    padding: 11px;
+    margin-top: 20px;
+    outline: none;
+    font-weight: 550;
+}
+.s-c-1-p{
+    font-size: 40px;
+}
+
+.screen-2{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.s-2-h1{
+    border-left: 5px solid;
+    border-color: rgb(243, 107, 107);
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 52px;
+    font-weight: 450;
+}
+.s2-container{
+    display: flex;
+    padding-bottom:100px;
+}
+.s2-c-card{
+    width: 43vw;
+}
+.s2-btn{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    outline: none;
+    border: 0px;
+    padding:10px;
+    height:80px;
+    width:250px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    margin-top:250px;
+    margin-left:40px;
+}
+
+.s2-c-p{
+    font-size:20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.screen-3{
+ background-image: url("https://res.cloudinary.com/dyqmnbmxi/image/upload/v1733357523/Spacio_TechTonics_Consultancy_V21_trhcsc.png");
+ height: 100vh;  
+ background-size: cover; 
+ padding: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: white;
+ padding-bottom:100px;
+}
+.s3-c-content{
+    align-self: flex-end;
+    font-size:48px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.screen-4{
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.911);
+}
+.s4-p{
+    font-size:18px;
+    font-weight: 550;
+    margin: 30px;
+    margin-left: 50px;
+}
+.s4-list{
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 550;
+}
+.s4-card{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 70px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding:10px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.s4-c-i-p{
+    font-size:11px;
+    text-align: center;
+}
+.s4-c-i-h{
+    font-size:38px;
+    color: black;
+    font-weight: bold;
+}
+
+.screen-6{
+    padding: 40px;
+}
+.s6-row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+}
+.s6-r-c{
+    padding: 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+.s6-r-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    height:300px;
+    width:300px;
+    border-radius:30px;
+    padding:20px;
+}
+.s6-r-c-li{
+    border:4px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height: 50px;
+    font-size:24px;
+    font-weight: 400;
+    padding: 0px;
+    color: black;
+}
+
+.s6-r-c-p{
+    font-size: 19px;
+    font-weight: 550;
+    padding-left:10px;
+    margin-top:15px;
+}
+.s6-r-c-d{
+    align-self:flex-end;
+    padding-right: 40px;
+    font-size:14px;
+    font-weight: 550;
+}
+.screen-7{
+    background-image: url("https://res.cloudinary.com/dyqmnbmxi/image/upload/v1733357523/Spacio_TechTonics_Consultancy_V21_trhcsc.png");
+    background-size: cover;
+    height: 100vh;
+    padding:20px;
+}
+
+.nav-texts-7 {
+    color: white;
+    font-size: 16px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+.nav-texts-7-h {
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.s7-h{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 58px;
+    font-weight: bold;
+}
+.s7-1{
+    padding-left:50px;
+    padding-right: 50px;
+}
+.s7-p{
+    font-family: sans-serif;
+    font-size:18px;
+}
+
+.s7-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top:40px;
+}
+
+.s7-h2{
+    font-size:42px;
+    font-weight: 500;
+}
+
+.email-input{
+    color: white;
+    padding:10px;
+    border: 2px solid white;
+    border-radius:10px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.sign-btn{
+    border:0px;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size:16px;
+    font-weight: 500;
+    height: 40px;
+}
+.s7-left{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.s7-p2{
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: 600px;
+    margin-right: 5px;
+    margin-top:15px;
+}
+.s7-right{
+    align-self: flex-end;
+}
+
+.footer{
+    background-color: rgb(5, 5, 5);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-div2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-p{
+    font-size:16px;
+    color:rgb(26, 23, 23);
+}
+
+.footer-p-w{
+    font-size:16px;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-p2{
+    font-size:20px;
+    font-weight: 500;
+    color: white;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.screen-5{
+    padding: 40px;
+}
+.s5-row-1{
+    display: flex;
+    justify-content: space-between;
+}
